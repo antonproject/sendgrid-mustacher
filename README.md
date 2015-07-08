@@ -5,15 +5,15 @@ Send lot emails using Sendgrid and template that using Mustache ;D
 
 ##Get Started
 
-````bash
+```bash
 
 npm install --save sendgrid-mustacher
 
-````
+```
 
 This project help you to send Emails using the powerfull Sendgrid API and template that using the awesome Mustache! 
 
-````javascript
+```javascript
 
 var SendgridMustacher = require('sendgrid-mustacher');
 
@@ -38,7 +38,7 @@ sendgridMustacher.sendBBatch({
 	console.log(response); // [{ email: 'awesome@mustacher.com', message: 'success'}, { email: 'awesome@mustacher.com', message: 'success'}];
 });
 
-````
+```
 
 ###SendgridMustacher([api_key || api_user], [api_password || options])
 	You can instantiate the SendgridMustacher passing the API_USER and API_PASSWORD or just send your API_KEY. All options are available!
