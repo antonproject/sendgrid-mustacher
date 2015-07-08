@@ -1,0 +1,37 @@
+{
+  "name": "sendgrid-mustacher",
+  "version": "1.0.0",
+  "description": "Send lot emails using Sendgrid and template that using Mustache ;D",
+  "main": "index.js",
+  "scripts": {
+    "test": "script/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonproject/sendgrid-mustacher.git"
+  },
+  "keywords": [
+    "mustache",
+    "sendgrid",
+    "emails",
+    "batch",
+    "email",
+    "template"
+  ],
+  "author": "Marcos Bérgamo <marcos@thedon.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonproject/sendgrid-mustacher/issues"
+  },
+  "homepage": "https://github.com/antonproject/sendgrid-mustacher",
+  "dependencies": {
+    "bluebird": "^2.9.32",
+    "chai": "^3.0.0",
+    "istanbul": "^0.3.17",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5",
+    "mustache": "^2.1.2",
+    "nock": "^2.7.0",
+    "sendgrid": "^1.9.0"
+  }
+}
