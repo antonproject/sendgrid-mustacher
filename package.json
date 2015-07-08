@@ -1,6 +1,6 @@
 {
   "name": "sendgrid-mustacher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send lot emails using Sendgrid and template that using Mustache ;D",
   "main": "index.js",
   "scripts": {
@@ -26,12 +26,15 @@
   "homepage": "https://github.com/antonproject/sendgrid-mustacher",
   "dependencies": {
     "bluebird": "^2.9.32",
-    "chai": "^3.0.0",
-    "istanbul": "^0.3.17",
     "lodash": "^3.10.0",
-    "mocha": "^2.2.5",
     "mustache": "^2.1.2",
     "nock": "^2.7.0",
     "sendgrid": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "coveralls": "^2.11.2",
+    "mocha": "^2.2.5",
+    "istanbul": "^0.3.17"
   }
 }
