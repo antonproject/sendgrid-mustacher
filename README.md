@@ -41,11 +41,11 @@ sendgridMustacher.sendBBatch({
 ```
 
 ### SendgridMustacher([api_key || api_user], [api_password || options])
-	You can instantiate the SendgridMustacher passing the API_USER and API_PASSWORD or just send your API_KEY. All options are available!
+You can instantiate the SendgridMustacher passing the API_USER and API_PASSWORD or just send your API_KEY. All options are available!
 
 ### sendBatch(sharedData, contentData [callback]) -> Promise
-	On the example above you can see all the information passed for the `sendBatch` the email is associated in a set of data, because the custom data are direct for the email.
-	You can using too a callback or a Promise for resolving this function.
+On the example above you can see all the information passed for the `sendBatch` the email is associated in a set of data, because the custom data are direct for the email.
+You can using too a callback or a Promise for resolving this function.
 
 ## License
 Licensed under the MIT License.
